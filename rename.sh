@@ -1,2 +1,2 @@
 #!/bin/bash
-for f in *.jpg; do mv "$f" "$(echo $f | tr ' ' '_')"; done
+for f in *; do [ -f "$f" ] && mv "$f" "$(echo "$f" | tr ' ' '_')"; done

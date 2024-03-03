@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av ~/Documents /Volumes/backup/
+rsync -av --exclude node_modules ~/Documents /Volumes/backup/

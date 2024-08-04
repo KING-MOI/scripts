@@ -1,2 +1,4 @@
 #!/bin/bash
-while true; do echo focus; sleep 1500; echo break; sleep 300; done
+say focus; sleep 1500
+say break; sleep 300
+say focus

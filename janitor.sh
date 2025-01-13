@@ -1,3 +1,5 @@
 #!/bin/bash
-find ~/Downloads -name '*.dmg' -mtime +30 -delete
-find ~/Downloads -name '*.zip' -mtime +30 -delete
+DRY=${1:-}
+run() { [ "$DRY" = "-n" ] && echo "$@" || eval "$@"; }
+run 'find ~/Downloads -name "*.dmg" -mtime +30 -delete'
+run 'find ~/Downloads -name "*.zip" -mtime +30 -delete'

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# grew into tokentally
 import json, sys, collections
 by_day = collections.defaultdict(collections.Counter)
 for line in open(sys.argv[1]):

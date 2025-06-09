@@ -6,4 +6,5 @@ case $1 in
   ls) cat -n $F ;;
   done) sed -i '' "$2d" $F ;;
   edit) ${EDITOR:-vi} $F ;;
+  clear) > $F ;;
 esac

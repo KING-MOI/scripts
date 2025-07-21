@@ -5,8 +5,8 @@ personal utilities. works for me, might not for you.
 - rename.sh
 - backup.sh
 - todo.sh
-- weather.py (cached)
-- git-sync.sh
+- weather.py (cached, -f for fahrenheit)
+- git-sync.sh (parallel)
 - janitor.sh
 
 pomodoro.sh moved to [pomo-rs](https://github.com/KING-MOI/pomo-rs).

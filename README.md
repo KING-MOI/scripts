@@ -9,5 +9,5 @@ personal utilities. works for me, might not for you.
 - git-sync.sh (parallel)
 - janitor.sh
 
-pomodoro.sh moved to [pomo-rs](https://github.com/KING-MOI/pomo-rs).
-count-tokens.py grew into [tokentally](https://github.com/KING-MOI/tokentally).
+pomodoro.sh moved to [pomo-rs](https://github.com/pekkaiscool/pomo-rs).
+count-tokens.py grew into [tokentally](https://github.com/pekkaiscool/tokentally).
